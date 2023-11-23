@@ -14,12 +14,6 @@
   tags: [contestant]
   roles:
     - langs.go
-    - langs.nodejs
-    - langs.perl
-    - langs.php
-    - langs.python
-    - langs.ruby
-    - langs.rust
     - contestant
 
 - name: "contestant roles for the qualify day"
@@ -33,7 +27,6 @@
   tags: [bench]
   roles:
     - langs.go
-    - langs.rust
     - bench
 
 - name: "bench roles for the qualify day"
@@ -47,12 +40,6 @@
   hosts: [standalone]
   roles:
     - langs.go
-    - langs.nodejs
-    - langs.perl
-    - langs.php
-    - langs.python
-    - langs.ruby
-    - langs.rust
     - contestant
     - bench
 
